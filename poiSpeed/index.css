@@ -1,0 +1,31 @@
+/*
+poiSpeed/index.css
+Version: 1.1  @2023/05/28
+Wenchin Hsieh @Goomo.Net Studio, wenchin@goomo.net
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#caption {
+    color: #FFF;
+    font-size: 20px;
+    padding: 6px;
+    background: linear-gradient(to top right, #444, #777, #AAA, #EEE);
+    font-weight: bold;
+}
+
+#map {
+    flex-grow: 1;
+    position: relative;
+    border: 1px solid grey;
+}

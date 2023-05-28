@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+speedTracking/index.html
+Version: 1.1  @2023/05/28
+Wenchin Hsieh @Goomo.Net Studio, wenchin@goomo.net
+-->
+
+<html lang="zh-tw">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="https://openlayers.org/en/v6.15.0/css/ol.css" type="text/css">
+    <script src="https://openlayers.org/en/v6.15.0/build/ol.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>循跡＋測速執法設置點</title>
+</head>
+
+<body>
+    <div id="caption">
+        📸 <span id="highlight">循跡</span> ＋ 測速執法設置點
+    </div>
+    <div id="panel">
+        <textarea id="result" rows="5" style="width:99%" readonly></textarea>
+        &nbsp; 🚩
+        <button id="btnStart" onclick="startWatching()">循跡</button>
+        <button id="btnStop" onclick="stopWatching()" disabled>停止</button>
+        <span id="txtLocation"></span>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>

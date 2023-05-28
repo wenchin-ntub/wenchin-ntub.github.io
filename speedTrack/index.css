@@ -1,0 +1,47 @@
+/*
+speedTracking/index.css
+Version: 1.1.1  @2023/05/29
+Wenchin Hsieh @Goomo.Net Studio, wenchin@goomo.net
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#caption {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 6px;
+    background: linear-gradient(to top right, #444, #777, #AAA, #EEE);
+}
+
+#panel {
+    font-size: 18px;
+    padding: 6px;
+    background-color: #EEE;
+}
+
+#highlight {
+    color: #FB0;
+}
+
+#map {
+    flex-grow: 1;
+    position: relative;
+    border: 1px solid grey;
+}
